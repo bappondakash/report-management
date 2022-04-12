@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'mySolaimanLipiFont';
+    src: url('SolaimanLipi.ttf') format('truetype');
+/*    src: url("SolaimanLipi_20-04-07.ttf");*/
+}
+
+@font-face { 
+    font-family: 'boishakhi';
+    src: url('Boishkhi.ttf') format('truetype');
+/*    src: url("SolaimanLipi_20-04-07.ttf");*/
+}
+
+@font-face {
+    font-family: 'nikosh';
+    src: url('NikoshBAN.ttf') format('truetype');
+/*    src: url("SolaimanLipi_20-04-07.ttf");*/
+}
+
+@font-face {
+  font-family: 'Kalpurush';
+  src: url('Kalpurush.eot');
+  src: url('Kalpurush.woff') format('woff'),
+       url('Kalpurush.ttf') format('truetype'),
+       url('Kalpurush.svg#Kalpurush') format('svg'),
+       url('Kalpurush.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyNikosh';
+    src: url(data:application/x-font-woff;charset=utf-8;base64) format('woff'),
+    url('NikoshBAN.ttf') format('truetype'),
+    url('NikoshBAN.svg#NikoshBAN') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.input_bangla{
+    font-family: boishakhi !important;
+    font-size: 90%;
+}
+
+.numeric_bangla{
+    font-family: boishakhi !important;
+    font-size: 80%;
+}
+
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family: mySolaimanLipiFont !important;
+/*     font-family:'mySolaimanLipiFont',Arial,Vrinda,FallbackBengaliFont,Helvetica,sans-serif !important;*/
+}
+.bangla{
+    font-family: Kalpurush !important;
+}
+
