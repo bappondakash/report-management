@@ -22,7 +22,7 @@ class Acland
         }
 
         if(Auth::user()->user_level == 20){
-            return redirect->route('acland.dashbaord');
+            return $next($request);
         }
     }
 }

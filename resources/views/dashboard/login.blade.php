@@ -54,13 +54,13 @@
                                     @csrf
                                     <div class="mb-3">
                                         <label for="emailaddress" class="form-label">ই-মেইল</label>
-                                        <input class="form-control" type="email" id="emailaddress" required="" placeholder="আপনার ই-মেইল এড্রেস লিখুন">
+                                        <input class="form-control" type="email" name="email" required="" placeholder="আপনার ই-মেইল এড্রেস লিখুন">
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="password" class="form-label">পাসওয়ার্ড</label>
                                         <div class="input-group input-group-merge">
-                                            <input type="password" id="password" class="form-control" placeholder="আপনার পাসওয়ার্ড লিখুন">
+                                            <input type="password" name="password" class="form-control" placeholder="আপনার পাসওয়ার্ড লিখুন">
                                             <div class="input-group-text" data-password="false">
                                                 <span class="password-eye"></span>
                                             </div>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Basic;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Auth;
 
 class UserController extends Controller
 {
@@ -24,7 +25,7 @@ class UserController extends Controller
             if(Auth::user()->user_level == 1) {
                 return redirect()->route('admin.dashboard');
             }elseif(Auth::user()->user_level == 20){
-                return redirect()->route('acland.dashboard.login');
+                return redirect()->route('acland.dashboard');
             }elseif(Auth::user()->user_level == 15){
                 return redirect()->route('adcr.dashboard');
             }elseif(Auth::user()->user_level == 10){
